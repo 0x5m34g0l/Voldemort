@@ -37,7 +37,7 @@ cl /EHsc d3crypt0r.cpp AES.cpp RSA.cpp Victim.cpp /Fe:d3crypt0r.exe
 
 ### Interesting catches from VirusTotal for the encryptor and decryptor
 ![Voldemort Workflow](images/virustotal_result1.jpg)
-![Voldemort Workflow](images/virustota2_result1.jpg)
+![Voldemort Workflow](images/virustotal_result2.jpg)
 
 
 ### Notes:
