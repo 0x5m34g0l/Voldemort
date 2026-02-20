@@ -18,7 +18,7 @@ A fully functional **ransomware simulation** built in C++ for **educational purp
 - Network connectivity with Windows VM
 
 ### This figure shows the flow diagram of the malware
-![Voldemort Workflow](images/voldemort_workflow.png)
+![Voldemort Workflow](images/voldemort_workflow_updated.png)
 
 ### compile v01d3m0rt.cpp (encryptor) & d3crypt0r.cpp (decryptor)
 ```bash
