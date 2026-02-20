@@ -35,6 +35,10 @@ cl /EHsc d3crypt0r.cpp AES.cpp RSA.cpp Victim.cpp /Fe:d3crypt0r.exe
 #### Decryptor UI before the ransom note (Petya style) ;)
 ![Voldemort Workflow](images/skull.jpg)
 
+### Interesting catches from VirusTotal for the encryptor and decryptor
+![Voldemort Workflow](images/virustotal_result1.jpg)
+![Voldemort Workflow](images/virustota2_result1.jpg)
+
 
 ### Notes:
 #### 1. There are still some issues in the malware development, like the encrpytion & decryption logic. Also, the long time of encryption should be in consideration. 
