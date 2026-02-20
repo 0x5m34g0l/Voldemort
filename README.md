@@ -18,9 +18,22 @@ A fully functional **ransomware simulation** built in C++ for **educational purp
 - Network connectivity with Windows VM
 
 ### This figure shows the flow diagram of the malware
+![Voldemort Workflow](images/voldemort_workflow.png)
 
 ### compile v01d3m0rt.cpp (encryptor) & d3crypt0r.cpp (decryptor)
 ```bash
 cl /EHsc v01d3m0rt.cpp AES.cpp RSA.cpp Victim.cpp /Fe:v01d3m0rt.exe
 cl /EHsc d3crypt0r.cpp AES.cpp RSA.cpp Victim.cpp /Fe:d3crypt0r.exe
 ```
+
+### Encryptor details
+![Voldemort Workflow](images/encryptor_details.png)
+
+### Decryptor details
+![Voldemort Workflow](images/decryptor_details.png)
+
+#### Decryptor UI before the ransom note (Petya style) ;)
+![Voldemort Workflow](images/skull.jpg)
+
+
+# Note: there are still some issues in the malware development, like the encrpytion & decryption logic. Also, the long time of encryption should be in consideration. 
