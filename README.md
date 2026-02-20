@@ -36,4 +36,4 @@ cl /EHsc d3crypt0r.cpp AES.cpp RSA.cpp Victim.cpp /Fe:d3crypt0r.exe
 ![Voldemort Workflow](images/skull.jpg)
 
 
-# Note: there are still some issues in the malware development, like the encrpytion & decryption logic. Also, the long time of encryption should be in consideration. 
+#### Note: there are still some issues in the malware development, like the encrpytion & decryption logic. Also, the long time of encryption should be in consideration. 
