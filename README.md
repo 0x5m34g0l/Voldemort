@@ -36,4 +36,6 @@ cl /EHsc d3crypt0r.cpp AES.cpp RSA.cpp Victim.cpp /Fe:d3crypt0r.exe
 ![Voldemort Workflow](images/skull.jpg)
 
 
-#### Note: there are still some issues in the malware development, like the encrpytion & decryption logic. Also, the long time of encryption should be in consideration. 
+### Notes:
+#### 1. There are still some issues in the malware development, like the encrpytion & decryption logic. Also, the long time of encryption should be in consideration. 
+#### 2. The decryptor should be downloaded from the server as explained in the flow diagram. But for simplicity i skipped this step and assume that it will be already in the victim side.
